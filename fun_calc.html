@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Functional Calculator</title>
+   <link rel="stylesheet" href="script.css">
+</head>
+<body>
+    <h1>Functional Calculators</h1>
+<div class="container">
+
+  
+    <div class="card">
+      <h2>Simple Interest Calculator</h2>
+      <p>Principal (₹):</p>
+      <input type="number" id="principal" placeholder="Enter Principal">
+
+      <p>Rate of Interest (%):</p>
+      <input type="number" id="rate" placeholder="Enter Rate">
+
+      <p>Time (years):</p>
+      <input type="number" id="time" placeholder="Enter Time">
+
+      <button onclick="calculateInterest()" id="cal">Calculate</button>
+    <p id="interestResult"></p>
+    </div>
+
+    
+    <div class="card">
+      <h2>BMI Calculator</h2>
+      <p>Height (cm):</p>
+      <input type="number" id="height" placeholder="Enter Height">
+
+      <p>Weight (kg):</p>
+      <input type="number" id="weight" placeholder="Enter Weight">
+
+      <button onclick="calculateBMI()" id="cal">Calculate</button>
+      <p id="bmiResult"></p>
+    </div>
+
+  
+    <div class="card">
+      <h2>Calorie Calculator</h2>
+      <p>Age:</p>
+      <input type="number" id="age" placeholder="Enter Age">
+
+      <p>Gender:</p>
+      <select id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+
+      <p>Weight (kg):</p>
+      <input type="number" id="calWeight" placeholder="Enter Weight">
+
+      <p>Height (cm):</p>
+      <input type="number" id="calHeight" placeholder="Enter Height">
+
+      <p>Activity Level:</p>
+      <select id="activity">
+        <option value="1.375">Lightly Active</option>
+        <option value="1.55">Moderately Active</option>
+        <option value="1.725">Very Active</option>
+        <option value="1.9">Extra Active</option>
+      </select>
+
+      <button onclick="calculateCalories()" id="cal">Calculate</button>
+      <p id="calorieResult"></p>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
