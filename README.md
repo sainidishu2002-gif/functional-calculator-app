@@ -28,3 +28,15 @@ Functional Calculator App offers a colorful, responsive web interface with Simpl
 ## Live Demo (Optional)
 
 If hosting with GitHub Pages, add your link here:
+
+## Contributing
+
+Feel free to open issues or pull requests for features, improvements, or bug fixes.
+
+## License
+
+This project is open source, released under the MIT License.
+
+---
+
+**Enjoy using the Functional Calculator App for your everyday calculations!**
